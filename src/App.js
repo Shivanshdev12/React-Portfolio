@@ -20,7 +20,6 @@ componentDidMount = async () =>{
     this.setState({
         projects:api_call
     })
-    console.log(this.state.projects);
   }
   render(){
     return (
