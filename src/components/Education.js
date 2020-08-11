@@ -9,6 +9,11 @@ class Education extends Component {
                         <h3>Education</h3>
                     </div>
                 </div>
+                <div className = "row">
+                    <div className = "col-sm-4">
+                        <h4>B.Tech (Electronics Engg.)</h4>
+                    </div>
+                </div>
             </div>
         )
     }
