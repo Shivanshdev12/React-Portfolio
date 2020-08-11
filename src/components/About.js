@@ -7,7 +7,7 @@ class About extends Component {
         };
         return (
             <div className="container about">
-                <div className="row">
+                <div className="row row-main">
                     <div className="col-sm-12">
                         <h3>About</h3>
                         <p style = {style}>A hardworking and dedicated individual with keen learning attitude. I hold good problem - solving, management and communication skills.

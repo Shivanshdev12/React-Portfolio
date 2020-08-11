@@ -1,4 +1,4 @@
-/*  Imported font Nunito  */
+/*  Imported font Nunito  from google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 body {
@@ -26,19 +26,79 @@ img.main-img {
   border-radius : 50%;
 }
 
-
 /* About CSS */
 .about, .education {
   text-align : left;
 }
 
-.row-about {
+.row-main {
   margin : 40px 0px 20px 0px;
-  padding : 70px 0px;
-  min-height: 300px;
+  padding : 50px 0px;
+  min-height : 200px;
 }
 
 h3 {
   color : #02A9EA;
   text-align : left;
+}
+
+/* Education CSS */
+.row-section { 
+  margin:10px 0px;
+  padding : 10px 0px;
+  min-height : 200px;
+}
+
+.row-section p { 
+  color : #555555;
+  text-align : left;
+}
+
+h4 {
+  text-align : left;
+}
+
+/* Skills CSS*/
+.wrapper-skills {
+  margin-top : 1em;
+}
+
+.container-skills {
+  display : grid;
+  grid-template-columns : 1fr 2fr;
+  padding-bottom : 1.2em;
+}
+
+.bar-one {
+  background-color : #ccddff;
+  margin : 0px 50px;
+  border-radius : 0.3em;
+  margin-bottom : 1em;
+  height : 1em;
+}
+
+.bar-one .bar {
+  background-color : #02a9ea;
+  border-radius : 0.3em;
+}
+
+.bar {
+  float : left;
+  height : 100%;
+}
+
+/* Box */
+.projects__box {
+  background : #fff;
+  padding-bottom : 2rem;
+  margin-bottom:2rem;
+  border : 2px solid #555555;
+  border-radius : 5px;
+  text-align : center;
+  overflow : hidden;
+}
+
+.projects__box a{
+  text-align : "center";
+  color : #fff;
 }
